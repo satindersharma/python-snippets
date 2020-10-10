@@ -6,7 +6,7 @@
 
 
 ### make a dict double qouted string and remove spaces inbetween
-'''python
+```python
     def get_data(self, data):
         '''
         remove all whitespace characters (space, tab, newline, and so on)
@@ -19,4 +19,4 @@
         rdata = ''.join(sdata.split())
         # print("data after convertion",rdata)
         return rdata
- '''python
+```
