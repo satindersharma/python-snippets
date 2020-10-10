@@ -13,7 +13,7 @@
         and return object
 
 
-        accepted format '{"event":"getportinfo"}' => without any spaces in sigle qoutes key value in double qoutes
+        return format '{"event":"getportinfo"}' => without any spaces in sigle qoutes key value in double qoutes
         '''
         sdata = str(json.dumps(data))
         rdata = ''.join(sdata.split())
